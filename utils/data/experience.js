@@ -42,7 +42,7 @@ export const experiences = [
   },
   {
     id: 4,
-    title: "Senior Quality Assurance - Automation",
+    title: "Software Engineer",
     company: "Blueconch Technologies (UST - Xpanxion)",
     location: "Pune, MH, India",
     duration: "(Dec 2020 – Aug 2022)",
