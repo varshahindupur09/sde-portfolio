@@ -3,7 +3,7 @@ import socialMediaPlatform from '/public/image/socialmediaplatform.png';
 import chatApp from '/public/image/flutter_chatapp.png';
 import aircastArchDiag from '/public/image/aircast_arch_diag.png';
 import sateliteExplorer from '/public/image/data_exploration_tool.png';
-import foodKingInteractive from '/public/image/foodKingInteractive.png';
+import foodKingInteractive from '/public/image/foodkingInteractive.png';
 
 export const projectsData = [
     {
