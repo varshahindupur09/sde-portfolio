@@ -1,6 +1,6 @@
 {
-  "name": "developer-portfolio",
-  "description": "Portfolio of Abu Said",
+  "name": "sde-portfolio",
+  "description": "Portfolio of Varsha Seshashayee Hindupur",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -20,7 +20,9 @@
     "react-fast-marquee": "^1.6.2",
     "react-google-recaptcha": "^3.1.0",
     "react-icons": "^4.11.0",
-    "react-toastify": "^10.0.4"
+    "react-toastify": "^10.0.4",
+    "rss-parser": "^3.13.0",
+    "sharp": "^0.33.5"
   },
   "devDependencies": {
     "autoprefixer": "latest",

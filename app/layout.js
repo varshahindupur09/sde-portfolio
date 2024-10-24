@@ -1,39 +1,33 @@
-// // app/blog/layout.js
-// export const metadata = {
-//     title: 'Blog Page',
-//     description: 'Blog details and posts',
-//   };
-  
-//   export default function BlogLayout({ children }) {
-//     return (
-//       <div>
-//         <header>
-//           <h1>Blog</h1>
-//         </header>
-//         <main>{children}</main>
-//       </div>
-//     );
-//   }
-  
-// app/layout.js
+import { GoogleTagManager } from "@next/third-parties/google";
+import { Inter } from "next/font/google";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import Footer from "./components/footer";
+import Navbar from "./components/navbar";
+import "./css/card.scss";
+import "./css/globals.scss";
+import ScrollToTop from "./components/helper/scroll-to-top";
+const inter = Inter({ subsets: ["latin"] });
+
 export const metadata = {
-  title: 'SDE Portfolio',
-  description: 'Developer portfolio',
+  title: "Portfolio of Varsha Hindupur - Software Developer & Tester",
+  description:
+    "I'm a passionate software developer and tech enthusiast with a focus on building high-performance applications in full-stack development. I love working on challenging problems and learning new technologies to create scalable and efficient software solutions. I've completed recently my Master of Science in Information Systems! Looking for a full-time opportunity as Full Stack Engineer, Backend Engineer, Software Developer or Software Tester!.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
-        <header>
-          <h1>Welcome to My Portfolio</h1>
-        </header>
-        <main>{children}</main>
-        <footer>
-          <p>© 2024 All Rights Reserved</p>
-        </footer>
+      <body className={inter.className}>
+        <ToastContainer />
+        <main className="min-h-screen relative mx-auto px-6 sm:px-12 lg:max-w-[70rem] xl:max-w-[76rem] 2xl:max-w-[92rem] text-white">
+          <Navbar />
+          {children}
+          <ScrollToTop />
+        </main>
+        <Footer />
       </body>
+      <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM} />
     </html>
   );
 }
-
