@@ -3,6 +3,7 @@ import socialMediaPlatform from '/public/image/socialmediaplatform.png';
 import chatApp from '/public/image/flutter_chatapp.png';
 import aircastArchDiag from '/public/image/aircast_arch_diag.png';
 import sateliteExplorer from '/public/image/data_exploration_tool.png';
+import foodKingInteractive from '/public/image/foodKingInteractive.png';
 
 export const projectsData = [
     {
@@ -57,12 +58,12 @@ export const projectsData = [
     },
     {
         id: 6,
-        name: 'FoodKing Interactive: LLM Gemma-Powered (Gen AI Project)',
+        name: 'FoodKing Interactive: LLM Gemma (Gen AI Project)',
         description: "Developed an AI-powered chatbot for FoodKing restaurant using Ollama Gemma:2B and Streamlit. The chatbot assists customers in placing orders and answering queries about the menu. The project integrates a dynamic menu system, allowing customers to select sizes and quantities for menu items, and provides real-time interaction. Docker was used for containerization to ensure local deployment of all services.",
         tools: ['Streamlit', 'Ollama Gemma:2B', 'Docker', 'Python'],
         role: 'Full Stack Developer',
-        code: 'https://github.com/varshahindupur09/PromptEngineeringInAI/tree/main/CHATBOT', // You can add a GitHub link here if applicable
-        demo: 'https://youtu.be/hNW7EwDtSws', // You can add a live demo link here if applicable
+        code: 'https://github.com/varshahindupur09/PromptEngineeringInAI/tree/main/CHATBOT', // You can add a GitHub link
+        demo: 'https://youtu.be/hNW7EwDtSws', // You can add a live demo link here
         image: foodKingInteractive, // Ensure you add this image in your project assets
     }    
 ];

@@ -1,5 +1,5 @@
+//app/components/projects/project-card.jsx
 // @flow strict
-
 import * as React from 'react';
 
 function ProjectCard({ project }) {
