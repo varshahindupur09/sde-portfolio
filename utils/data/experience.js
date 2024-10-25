@@ -2,15 +2,15 @@ export const experiences = [
   {
     id: 1,
     title: "Full Stack Engineer, Research",
-    company: "Northeastern University – Survey Platform",
+    company: "Northeastern University – Survey Platform - Professor Kelly Wellman",
     location: "Boston, MA",
     duration: "(Feb 2024 – Present)",
     responsibilities: [
-      "Developed scalable and responsive website from scratch using React (Material-UI), Node.js, MongoDB (NoSQL), Express.js, and Docker.",
-      "Simulated a digital dashboard and integrated Qualtrics, collecting data from 2 million participants for research analysis.",
-      "Implemented JWT authentication in backend REST APIs for MongoDB, enhancing data integrity and security.",
-      "Monitored deployment and infrastructure with CloudWatch, ensuring reliable performance of EBS, S3, CloudFront, and the CI/CD pipeline.",
-      "Designed AWS QuickSight dashboards to validate and analyze user engagement, boosting data visibility by 30%."
+      "Built a secure, scalable survey platform for academic research for 2M+ user interactions and achieving $10K+ savings over traditional solutions.",
+      "Utilized React, Node.js, MongoDB, Docker to build robust data application from scratch, turning user interactions into valuable research insights.",
+      "Secured user data with JWT authentication in REST APIs, ensuring privacy compliance and safeguarding sensitive information.",
+      "Enhanced infrastructure with AWS CloudWatch, stabilizing EBS, S3, and CloudFront performance, with accelerated deployment via CI/CD.",
+      "Designed AWS QuickSight dashboards to validate and analyze user engagement via demographics and feedback, boosting data visibility by 30%."
     ]
   },
   {
@@ -20,24 +20,25 @@ export const experiences = [
     location: "Atlanta, GA",
     duration: "(May 2023 – Dec 2023)",
     responsibilities: [
-      "Developed a meeting intelligence app with a voice-to-text pipeline using Python and Azure SQL, handling 80% of meeting queries for 100+ users.",
-      "Deployed application in Azure App Service by setting up a CI/CD pipeline using Azure DevOps, GitHub Actions, and CLI.",
-      "Utilized Airflow for ad-hoc and batch data processing, improving task automation efficiency by 30%.",
-      "Led migration to Redis for high-risk account processing, improving data access speeds and reducing server load by 25%.",
-      "Built a data pipeline with Azure Data Factory and Kafka to ingest R&D data into Snowflake, enabling real-time analysis."
+      "Crafted meeting intelligence app with Python and Azure SQL, automated responses to 80% of queries and enhancing productivity for 100+ users.",
+      "Implemented CI/CD pipelines in Azure using DevOps, GitHub Actions, and CLI, streamlining deployments for greater efficiency and reliability.",
+      "Increased task automation by 30% using Airflow for streamlined ad-hoc and batch data processing.",
+      "Enhanced system scalability with Nginx load balancing, reducing server load by 25% and supporting growth.",
+      "Enabled real-time project tracking with Kafka integration for the portfolio team, facilitating ROI analysis and efficient resource allocation.",
+      "Upgraded a legacy system by creating a Risk Analyzer app with React, FastAPI, and PostgreSQL, introducing alerts to reduce operational incidents."
     ]
   },
   {
     id: 3,
     title: "Software Engineer, Data Science Research",
-    company: "Northeastern University – Marketing Department",
+    company: "Northeastern University – Marketing Department - Professor Amy Pei",
     location: "Boston, MA",
     duration: "(Feb 2023 – May 2023)",
     responsibilities: [
-      "Scraped brand ambassador diversity image data for 50+ luxury brands (1M+ records) using Python, Twitter APIs, and Selenium.",
-      "Extracted human images using OpenCV and DeepFace ML to analyze and collect demographic features from the dataset.",
-      "Parallelized data and model processing with Dask and AMP on HPC distributed systems using CUDA GPUs.",
-      "Developed a Python Flask app integrating Dropbox APIs and Plotly to create interactive visualizations for academic research data."
+      "Collected and analyzed brand diversity data from 1M+ records via 50 luxury brands using Python, Twitter APIs, Selenium, for academic research.",
+      "Processed demographic image data with OpenCV and DeepFace ML, creating comprehensive dataset for diversity analysis for marketing and advertising team.",
+      "Optimized large-scale image analysis by parallelizing data and model processing with Dask and CUDA GPUs on HPC systems, surging efficiency.",
+      "Built interactive data visualization tool with Python Flask, Dropbox APIs, and Plotly, enabling clear presentation of research findings."
     ]
   },
   {
@@ -47,11 +48,13 @@ export const experiences = [
     location: "Pune, MH, India",
     duration: "(Dec 2020 – Aug 2022)",
     responsibilities: [
-      "Developed scalable microservices for real-time credit risk calculations, ensuring accurate tracking for over 1 million users.",
-      "Designed backend services using Java SpringBoot, built CI/CD with Jenkins and Maven, improving deployment speed by 20%.",
-      "Led migration to Redis for high-risk account processing, improving data access speeds by 2 business days.",
-      "Implemented security protocols, including encryption and OAuth2, to protect sensitive user data.",
-      "Designed functional, integration test automation suite with Ruby and Playwright, reducing defects by 98% pre-release."
+      "Developed scalable microservices for credit risk calculations, tracking data for 1M+ users, enhancing data accuracy and financial insights.",
+      "Improved deployment speed by 20\% by designing backend services in Java Spring Boot and automating CI/CD pipelines with Jenkins and Maven.",
+      "Engineered credit risk algorithms with hash maps and binary search trees, accelerating data retrieval for Equifax clients",
+      "Collaborated on reducing processing time by 2 days through Redis migration for high-risk accounts, significantly boosting data access speed.",
+      "Secured sensitive user data with encryption and OAuth2, ensuring compliance with industry regulations.",
+      "Streamlined real-time data exchange by building APIs with XML and Kafka, processing 500K+ transactions daily for 50K users",
+      "Designed functional, regression, integration tests automation suites reducing 98% defect pre-release."
     ]
   },
   {
