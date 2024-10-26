@@ -17,6 +17,6 @@ export const personalData = {
     stackOverflow: 'https://stackoverflow.com/users/27917878/varsha-hindupur',
     leetcode: "https://leetcode.com/u/varshahindupur09/",
     devUsername: "varshahindupur09",
-    resume: "https://drive.google.com/file/d/1atLtfodkDA0lm0mM_mVGDHmIgGpF4dOW/view?usp=sharing"
+    resume: "https://drive.google.com/file/d/11WkE0wO1ixnOChcUebN3tGyvlGiFIc-d/view?usp=sharing"
   }
   '''

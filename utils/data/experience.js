@@ -15,7 +15,7 @@ export const experiences = [
   },
   {
     id: 2,
-    title: "R&D Ecosystem Coordinator Co-Op",
+    title: "Software Engineer Intern",
     company: "Novelis",
     location: "Atlanta, GA",
     duration: "(May 2023 – Dec 2023)",
