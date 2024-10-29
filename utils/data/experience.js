@@ -43,7 +43,7 @@ export const experiences = [
   },
   {
     id: 4,
-    title: "Software Engineer",
+    title: "Senior Software Engineer",
     company: "Blueconch Technologies (UST - Xpanxion)",
     location: "Pune, MH, India",
     duration: "(Dec 2020 – Aug 2022)",
@@ -59,26 +59,22 @@ export const experiences = [
   },
   {
     id: 5,
-    title: "Senior Software Test Engineer Analyst",
+    title: "Software Engineer",
     company: "Accenture",
     location: "Mumbai City, MH, India",
     duration: "(Mar 2019 – Dec 2020)",
     responsibilities: [
-      "Developed and optimized a Java-based Maven-TestNG-BDD framework for a live chatting application, reducing testing time by 90%.",
-      "Set up Jenkins CI/CD pipelines, accelerating deployment speed and providing rapid feedback on code changes.",
-      "Mentored junior engineers, reviewed code, and introduced new workflows using Jenkins, Maven, and BitBucket."
+      ""
     ]
   },
   {
     id: 6,
-    title: "Test Engineer",
+    title: "Software Engineer",
     company: "Infosys",
     location: "Pune, MH, India",
     duration: "(Mar 2017 – Mar 2019)",
     responsibilities: [
-      "Integrated Selenium with DevTest 10.1 for ISO 20022 messages, reducing production time by 70%.",
-      "Automated 500 test cases within a month using POM architecture for IMActions and TCS Bancs projects.",
-      "Managed PL/SQL scripts for efficient data extraction in aircraft document management systems for Boeing."
+     ""
     ]
   },
   {
@@ -94,3 +90,12 @@ export const experiences = [
     ]
   }
 ];
+
+
+// "Developed and optimized a Java-based Maven-TestNG-BDD framework for a live chatting application, reducing testing time by 90%.",
+//       "Set up Jenkins CI/CD pipelines, accelerating deployment speed and providing rapid feedback on code changes.",
+//       "Mentored junior engineers, reviewed code, and introduced new workflows using Jenkins, Maven, and BitBucket."
+
+// "Integrated Selenium with DevTest 10.1 for ISO 20022 messages, reducing production time by 70%.",
+// "Automated 500 test cases within a month using POM architecture for IMActions and TCS Bancs projects.",
+// "Managed PL/SQL scripts for efficient data extraction in aircraft document management systems for Boeing."
