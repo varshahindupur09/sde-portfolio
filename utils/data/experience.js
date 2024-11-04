@@ -9,7 +9,7 @@ export const experiences = [
       "Built a secure, scalable survey platform for academic research for 2M+ user interactions and achieving $10K+ savings over traditional solutions.",
       "Utilized React, Node.js, MongoDB, Docker to build robust data application from scratch, turning user interactions into valuable research insights.",
       "Secured user data with JWT authentication in REST APIs, ensuring privacy compliance and safeguarding sensitive information.",
-      "Enhanced infrastructure with AWS CloudWatch, stabilizing EBS, S3, and CloudFront performance, with accelerated deployment via CI/CD.",
+      "Enhanced infrastructure with AWS CloudWatch, stabilizing Kubernetes (EKS), S3, CloudFront and Terraform (IaC) performance, with accelerated deployment via CI/CD.",
       "Designed AWS QuickSight dashboards to validate and analyze user engagement via demographics and feedback, boosting data visibility by 30%."
     ]
   },
