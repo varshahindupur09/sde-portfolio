@@ -1,6 +1,8 @@
 //app/components/projects/project-card.jsx
 // @flow strict
 import * as React from 'react';
+import Image from 'next/image';
+import {FaGithub} from 'react-icons/fa';
 
 function ProjectCard({ project }) {
 
@@ -19,6 +21,18 @@ function ProjectCard({ project }) {
         <p className="text-center ml-3 text-[#16f2b3] text-base lg:text-xl">
           {project.name}
         </p>
+        {/* Architecture Image */}
+        {project.image && (
+          <div className="flex justify-center mt-4">
+            <Image
+              src={project.image}
+              alt={`${project.name} Architecture`}
+              width={400}
+              height={200}
+              className="rounded-lg"
+            />
+          </div>
+        )}
       </div>
       <div className="overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8">
         <code className="font-mono text-xs md:text-sm lg:text-base">
@@ -64,6 +78,20 @@ function ProjectCard({ project }) {
           <div><span className="text-gray-400">{`};`}</span></div>
         </code>
       </div>
+      
+      {/* GitHub Icon Link */}
+      {project.code && (
+        <div className="flex justify-center mt-4 mb-4">
+          <a
+            href={project.code}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-400 hover:text-[#16f2b3] transition-all duration-300"
+          >
+            <FaGithub size={24} />
+          </a>
+        </div>
+      )}
     </div>
   );
 };
