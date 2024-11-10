@@ -1,8 +1,9 @@
+//utils/data/expereince.js
 export const experiences = [
   {
     id: 1,
     title: "Graduate Research Assistance (Full Stack Engineer)",
-    company: "Northeastern University – Survey Platform - Professor Kelly Wellman",
+    company: "Northeastern University",
     location: "Boston, MA",
     duration: "(Feb 2024 – Present)",
     responsibilities: [
@@ -30,8 +31,8 @@ export const experiences = [
   },
   {
     id: 3,
-    title: "Graduate Reseach Assistant (Software Engineer, Data Science)",
-    company: "Northeastern University – Marketing Department - Professor Amy Pei",
+    title: "Graduate Reseach Assistant (Software Engineer, Data Scientist)",
+    company: "Northeastern University",
     location: "Boston, MA",
     duration: "(Feb 2023 – May 2023)",
     responsibilities: [

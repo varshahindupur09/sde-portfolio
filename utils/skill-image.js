@@ -19,7 +19,7 @@ import deno from '/public/svg/skills/deno.svg';
 import django from '/public/svg/skills/django.svg';
 import docker from '/public/svg/skills/docker.svg';
 import fastify from '/public/svg/skills/fastify.svg';
-import figma from '/public/svg/skills/figma.svg';
+// import figma from '/public/svg/skills/figma.svg';
 import firebase from '/public/svg/skills/firebase.svg';
 import flutter from '/public/svg/skills/flutter.svg';
 import gcp from '/public/svg/skills/gcp.svg';
@@ -203,8 +203,8 @@ export const skillsImage = (skill) => {
       return blender;
     case 'fastify':
       return fastify;
-    case 'figma':
-      return figma;
+    // case 'figma':
+    //   return figma;
     case 'flutter':
       return flutter;
     case 'haxe':

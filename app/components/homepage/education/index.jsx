@@ -70,6 +70,27 @@ function Education() {
                           <p className="text-sm sm:text-base">{education.institution}</p>
                         </div>
                       </div>
+
+                      {/* Activities Section */}
+                      <div className="mt-4 px-3">
+                        <h4 className="text-[#16f2b3] text-sm sm:text-md font-semibold mb-2">Activities:</h4>
+                        <ul className="list-disc list-inside space-y-1 text-xs sm:text-sm text-gray-300">
+                          {education.activities.map((activity, idx) => (
+                            <li key={idx}>{activity}</li>
+                          ))}
+                        </ul>
+                      </div>
+
+                      {/* Courses Section */}
+                      <div className="mt-4 px-3">
+                        <h4 className="text-[#16f2b3] text-sm sm:text-md font-semibold mb-2">Courses:</h4>
+                        <ul className="list-disc list-inside space-y-1 text-xs sm:text-sm text-gray-300">
+                          {education.courses.map((course, idx) => (
+                            <li key={idx}>{course}</li>
+                          ))}
+                        </ul>
+                      </div>
+
                     </div>
                   </GlowCard>
                 ))
