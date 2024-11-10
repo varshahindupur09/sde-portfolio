@@ -60,7 +60,7 @@ export const experiences = [
   },
   {
     id: 5,
-    title: "Software Engineer",
+    title: "Senior Software Engineer",
     company: "Accenture",
     location: "Mumbai City, MH, India",
     duration: "(Mar 2019 – Dec 2020)",
