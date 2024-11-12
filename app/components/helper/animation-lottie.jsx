@@ -1,3 +1,4 @@
+//components/helper/animation-lottie.jsx
 "use client";
 
 import Lottie from "lottie-react";
