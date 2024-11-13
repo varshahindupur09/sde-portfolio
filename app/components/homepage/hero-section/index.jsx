@@ -22,7 +22,7 @@ function HeroSection() {
 
       <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8">
         <div className="order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10">
-          <h2>Hello, I'm </h2>
+          <h2>Hello, I am </h2>
           <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
             <span className=" text-pink-500">Varsha Seshashayee Hindupur.</span>
             <br></br>
@@ -32,8 +32,8 @@ function HeroSection() {
           </h1>
           <br></br>
           <h3>I build agile, data-centric architectures that fuse the rigor of engineering with the fluidity of data science, unlocking new pathways for innovation and operational efficiency.</h3>
-          <h3>I hold Master's of Science in Information Systems from <strong className=" text-[#16f2b3]">Northeastern University.</strong></h3>
-          <h3>I've 5.5 years of work experience as Software Engineer.</h3>
+          <h3>I hold Master of Science in Information Systems degree from <strong className=" text-[#16f2b3]">Northeastern University.</strong></h3>
+          <h3>I have 5.5 years of work experience as Software Engineer.</h3>
 
           <div className="my-12 flex items-center gap-5">
             <Link
