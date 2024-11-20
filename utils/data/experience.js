@@ -1,4 +1,6 @@
 //utils/data/expereince.js
+import SystemDesignInitialArchitectureServerless from '/public/image/sysdesignInitialRA.png';
+
 export const experiences = [
   {
     id: 1,
@@ -10,9 +12,9 @@ export const experiences = [
       "Built a secure, scalable survey platform for academic research for 2M+ user interactions and achieving $10K+ savings over traditional solutions.",
       "Utilized React, Node.js, MongoDB, Docker to build robust data application from scratch, turning user interactions into valuable research insights.",
       "Secured user data with JWT authentication in REST APIs, ensuring privacy compliance and safeguarding sensitive information.",
-      "Enhanced infrastructure with AWS CloudWatch, stabilizing Kubernetes (EKS), S3, CloudFront and Terraform (IaC) performance, with accelerated deployment via CI/CD.",
-      "Designed AWS QuickSight dashboards to validate and analyze user engagement via demographics and feedback, boosting data visibility by 30%."
-    ]
+      "Enhanced infrastructure with AWS CloudWatch, stabilizing Kubernetes (EKS), S3, CloudFront and Terraform (IaC) performance, with accelerated deployment via CI/CD."
+    ],
+    image1: SystemDesignInitialArchitectureServerless
   },
   {
     id: 2,
@@ -100,3 +102,4 @@ export const experiences = [
 // "Integrated Selenium with DevTest 10.1 for ISO 20022 messages, reducing production time by 70%.",
 // "Automated 500 test cases within a month using POM architecture for IMActions and TCS Bancs projects.",
 // "Managed PL/SQL scripts for efficient data extraction in aircraft document management systems for Boeing."
+// "Designed AWS QuickSight dashboards to validate and analyze user engagement via demographics and feedback, boosting data visibility by 30%."

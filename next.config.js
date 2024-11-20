@@ -1,4 +1,6 @@
+const { webpack } = require('next/dist/compiled/webpack/webpack')
 const path = require('path')
+const { config } = require('process')
  
 module.exports = {
   sassOptions: {
@@ -22,5 +24,9 @@ module.exports = {
         pathname: '**',
       },
     ],
+  },
+  webpack: (config) => {
+    config.resolve.alias['framer-motion'] = require.resolve('framer-motion');
+    return config;
   },
 }
