@@ -74,8 +74,12 @@ function Experience() {
                 </li>
               ))}
             </ul>
+            <br></br>
+            <br></br>
+            <h3>Click on Image To Expand!</h3>
             {selectedExperience.image1 && (
               <div className="mt-6">
+                <br></br>
                 <Image
                   src={selectedExperience.image1}
                   alt={`${selectedExperience.title} image`}
@@ -84,6 +88,14 @@ function Experience() {
                   className="rounded-md shadow-lg cursor-pointer"
                   onClick={() => setIsModalOpen(true)} // Open modal on click
                 />
+              </div>
+            )}
+            <br></br>
+            {selectedExperience.github1 && (
+            <div className="mt-6">
+                <a href={selectedExperience.github1} target="_blank" rel="noopener noreferrer">
+                  Click Me To Visit GitHub!
+                </a>
               </div>
             )}
           </div>

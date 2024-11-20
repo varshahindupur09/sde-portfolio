@@ -14,7 +14,8 @@ export const experiences = [
       "Secured user data with JWT authentication in REST APIs, ensuring privacy compliance and safeguarding sensitive information.",
       "Enhanced infrastructure with AWS CloudWatch, stabilizing Kubernetes (EKS), S3, CloudFront and Terraform (IaC) performance, with accelerated deployment via CI/CD."
     ],
-    image1: SystemDesignInitialArchitectureServerless
+    image1: SystemDesignInitialArchitectureServerless,
+    github1: "https://github.com/varshahindupur09/RA_Online_Instrument_Architecture/blob/main/README.md"
   },
   {
     id: 2,
