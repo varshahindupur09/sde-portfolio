@@ -2,7 +2,8 @@ import aiAnaomalyDetectSys from '/public/image/aianomalydetectsys.png';
 import socialMediaPlatform from '/public/image/socialmediaplatform.png';
 import chatApp from '/public/image/flutter_chatapp.png';
 import aircastArchDiag from '/public/image/aircast_arch_diag.png';
-import sateliteExplorer from '/public/image/data_exploration_tool.png';
+import sateliteExplorer from '/public/image/archDataExplorationTool.png'
+// import sateliteExplorer from '/public/image/data_exploration_tool.png';
 import foodKingInteractive from '/public/image/foodkingInteractive.png';
 
 export const projectsData = [
@@ -16,17 +17,6 @@ export const projectsData = [
         code: 'https://github.com/varshahindupur09/anomali-detection-gen-ai.git',
         demo: '',
         image: aiAnaomalyDetectSys,
-    },
-    {
-        id: 1,
-        name: 'Real-Time Social Media Platform',
-        timeline: 'August 2024',
-        description: "Developed a real-time social media platform with a microservices architecture using Python (Flask, Django) and RabbitMQ for event-driven communication. Integrated Docker for containerization, allowing for seamless deployment and scalability of services. The platform enables instant user interactions and admin post tracking.",
-        tools: ['Python', 'Flask', 'Django', 'RabbitMQ', 'Docker'],
-        role: 'Microservices Engineering, Backend Developer',
-        code: 'https://github.com/varshahindupur09/Real_Time_Event_Driven_Communication.git',
-        demo: '',
-        image: socialMediaPlatform,
     },
     {
         id: 4,
@@ -48,7 +38,7 @@ export const projectsData = [
         role: 'Data Engineering, Backend Developer, Data Scientist',
         code: 'https://github.com/varshahindupur09/Weather-Explorer-Interactive-Weather-Data-Visualization.git',
         demo: '',
-        image: sateliteExplorer,
+        image: sateliteExplorer
     },
     {
         id: 6,
@@ -71,5 +61,16 @@ export const projectsData = [
         code: 'https://github.com/varshahindupur09/chatapp_for_communication.git',
         demo: '',
         image: chatApp,  // Add image if available
+    },
+    {
+        id: 1,
+        name: 'Real-Time Social Media Platform',
+        timeline: 'August 2024',
+        description: "Developed a real-time social media platform with a microservices architecture using Python (Flask, Django) and RabbitMQ for event-driven communication. Integrated Docker for containerization, allowing for seamless deployment and scalability of services. The platform enables instant user interactions and admin post tracking.",
+        tools: ['Python', 'Flask', 'Django', 'RabbitMQ', 'Docker'],
+        role: 'Microservices Engineering, Backend Developer',
+        code: 'https://github.com/varshahindupur09/Real_Time_Event_Driven_Communication.git',
+        demo: '',
+        image: socialMediaPlatform,
     }
 ];
