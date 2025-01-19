@@ -10,9 +10,9 @@ import ScrollToTop from "./components/helper/scroll-to-top";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio of Varsha Hindupur - Software Developer & Tester",
+  title: "Portfolio of Varsha Hindupur - Software Developer",
   description:
-    "I'm a passionate software developer and tech enthusiast with a focus on building high-performance applications in full-stack development. I love working on challenging problems and learning new technologies to create scalable and efficient software solutions. I've completed recently my Master of Science in Information Systems! Looking for a full-time opportunity as Full Stack Engineer, Backend Engineer, Software Developer or Software Tester!.",
+    "I'm a passionate software developer and tech enthusiast with a focus on building high-performance applications in full-stack development. I love working on challenging problems and learning new technologies to create scalable and efficient software solutions. I've completed recently my Master of Science in Information Systems! Looking for a full-time opportunity as Generative AI Engineer, Full Stack Engineer, Backend Engineer or Software Developer!.",
 };
 
 export default function RootLayout({ children }) {

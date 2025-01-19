@@ -67,6 +67,7 @@ function Experience() {
               {selectedExperience.title} @ {selectedExperience.company}
             </h2>
             <p className="text-sm text-gray-400 mb-4">{selectedExperience.duration}</p>
+            <h3 className="text-sm text-gray-400 mb-4">{selectedExperience.techstack}</h3>
             <ul className="list-disc list-inside space-y-3 text-sm lg:text-base">
               {selectedExperience.responsibilities.map((item, idx) => (
                 <li key={idx} className="text-gray-300">
