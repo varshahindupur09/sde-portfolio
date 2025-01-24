@@ -24,7 +24,7 @@ export const experiences = [
   {
     id: 2,
     title: "R&D Ecosystem Coordinator Co-Op",
-    company: "Novelis",
+    company: "Dassault Systèmes",
     location: "Atlanta, GA",
     duration: "(May 2023 – Dec 2023)",
     techstack: "Tech Stack: Python, asyncronous APIs, AWS, LangChain, CI/CD, GitHub Actions, Docker, Kubernetes",
