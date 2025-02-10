@@ -7,7 +7,7 @@ export const experiences = [
     title: "Full Stack Engineer",
     company: "[RESEARCH] Northeastern University",
     location: "Boston, MA",
-    duration: "(Feb 2024 – Present)",
+    duration: "(Feb 2024 – December 2024)",
     techstack: "MongoDB, Express.js, React.js 17, Node.js, FastAPI, Redux, AWS (CloudFront, S3, Beanstalk, CloudWatch), LLM, RAG pipleine",
     responsibilities: [
       "Built a secure, scalable survey platform for academic research for 2M+ user interactions and achieving $10K+ savings over traditional solutions.",
@@ -23,25 +23,18 @@ export const experiences = [
   },
   {
     id: 2,
-    title: "R&D Ecosystem Coordinator Co-Op",
-    company: "Dassault Systèmes",
-    location: "Atlanta, GA",
-    duration: "(May 2023 – Dec 2023)",
+    title: "Full Stack Engineer",
+    company: "IBM Global Services",
+    location: "Dallas, TX",
+    duration: "(May 2023 – Present)",
     techstack: "Tech Stack: Python, asyncronous APIs, AWS, LangChain, CI/CD, GitHub Actions, Docker, Kubernetes",
     responsibilities: [
-      "Developed a Meeting Intelligence application using Python, FastAPI, Whisper APIs, AWS S3, EC2 and achieving 80% precision in answering questions from audio recordings of meetings and providing concise, reliable summaries. Increased task automation by 30% using Airflow for streamlined ad-hoc and batch data processing. Enhanced system scalability with Nginx load balancing, reducing server load by 25% and supporting growth.",
-      "Integrated a LangChain-based document retrieval system, boosting efficiency by 15% and cutting research time by 20%.",
-      "Constructed frontend modules using Django, CSS, and Next.js, achieving sub-500ms latency for seamless interactions across 500+ users.",
-      "Integrated website performance monitoring tools (Google PageSpeed Insights, Lighthouse) to enable webpage performance logging.",
-      "Implemented CI/CD pipelines using GitHub Actions, Docker, and EKS (K8), resulting in reduced infrastructure costs by $5000.",
-      "Enabled real-time project tracking with Kafka integration for the portfolio team, facilitating ROI analysis and efficient resource allocation.",
-      "Upgraded a legacy system by creating a Risk Analyzer app with React, FastAPI, and PostgreSQL, introducing alerts to reduce operational incidents.",
-      "Facilitated system design, APIs, and data flow, improving user engagement by 15% and meeting stakeholder requirements."
+      "Developed web platform for diagnosing Parkinson’s disease using React.js, improving accessibility for healthcare professionals and achieving $8,000 in cost savings. Built HIPAA-compliant authentication workflows using OAuth 2.0, ensuring secure handling of sensitive data. Migrated static assets to AWS S3 and served via CloudFront CDN, reducing EC2 instance load and lowering content delivery costs by 25%. Integrated LangChain document retrieval system, boosting efficiency by 15% and cutting research time by 20%. Developed Meeting Intelligence application using Whisper API, GPT-3.5, AWS (Lambda and SQS) enabling real-time video transcription, chat, and automated summaries, improving post-meeting insights by 30%. Enhanced deployment and monitoring using AWS services (EC2, S3, CloudWatch, CloudFront), ensuring 99.9% uptime and fault-tolerant production environments. Developed unit and integration tests with Pytest, ensuring code quality and functionality while maintaining high level of reliability throughout development process."
     ]
   },
   {
     id: 3,
-    title: "Software Developer",
+    title: "Data Scientist",
     company: "[RESEARCH] Northeastern University",
     location: "Boston, MA",
     duration: "(Feb 2023 – May 2023)",
@@ -57,26 +50,13 @@ export const experiences = [
   {
     id: 4,
     title: "Senior Software Engineer",
-    company: "Blueconch Technologies (UST - Xpanxion)",
+    company: "Accenture",
     location: "Pune, MH, India",
-    duration: "(Dec 2020 – Aug 2022)",
-    techstack: "Client: Credit Reporting & Finance | Tech Stack: GraphQL, Java Spring Boot, jQuery, AWS, Angular",
+    duration: "(Mar 2019 – Aug 2022)",
+    techstack: "Client: E-Commerce",
     responsibilities: [
-      "Engineered real-time GraphQL APIs with Java Spring, with push updates, reduced latency by 20%, handling 10,000 requests/seconds",
-      "Built responsive web pages with HTML5, CSS3, jQuery, and AngularJS, integrated JSON data to improve load times by 30 seconds",
-      "Developed cloud-native solutions on AWS (Lambda, S3, EC2), reducing cold start issues by 60% and infrastructure costs by 40%.",
-      "Boosted CI/CD deployment pipeline time from 60 to under 15 minutes through Jenkins and Maven automation.",
-      "Directed biweekly client demos of Credit Risk microservices within an Agile framework, resulting in 95\% client satisfaction..",
-      // "Developed UI from scratch with Next.js and TypeScript, improving reusability by 40% and achieving 3x faster performance with low latency.",
-      "Improved API latency by 40% with Redis caching and FastAPI, streamlining credit scoring workflows.",
-      // "Led 5 teams in developing scalable microservices with Java and Spring Boot for credit risk calculations, achieving 99.9% uptime while processing 500GB+ daily transactions and tracking data for 1M+ users to enhance financial insights",
-      "Automated event-driven workflow with AWS Lambda, EventBridge, and SNS, optimizing real-time cancellations, reminders, and updates.",
-      "Deployed the application on AWS using Kubernetes for container orchestration and Docker for containerization, ensuring scalability.",
-      "Developed UI modules from scratch with Next.js and TypeScript, improving reusability by 40% and achieving 3x faster performance with low latency.",
-      // "Improved deployment speed by 20\% by designing backend services in Java Spring Boot and automating CI/CD pipelines with Jenkins and Maven.",
-      // "Collaborated on reducing processing time by 2 days through Redis migration for high-risk accounts, significantly boosting data access speed.",
-      // "Streamlined real-time data exchange by building APIs with XML and Kafka, processing 500K+ transactions daily for 50K users",
-      "Collaborated on designing functional, regression, integration tests automation suites reducing 98% defect pre-release."
+      "Optimized server-side performance using Node.js, enabling real-time data processing and handling 10,000+ concurrent user requests. Created reusable Terraform configurations for AWS, reducing deployment errors by 15% and improving infrastructure consistency. Developed and maintained product browsing and cart modules within Salesforce Commerce Cloud (SFCC) SaaS e-commerce platform, reducing average page load time by 15%. Developed APIs and integrated third-party services (Stripe, Salesforce Service Cloud, and Order Management System) to streamline checkout flow, resulting in 30% improvement in checkout completion rate. Customized search experience using AWS Elasticsearch, improving search accuracy and driving 8% increase in conversion rates. Led team of 10 members for migration from monolithic MVC to microservices-based architecture, improving code modularity and maintainability by 40%.",
+      "Tech Stack: Salesforce Commerce Cloud (SFCC), Redis (ElastiCache), Elasticsearch, Jenkins (CI/CD), Maven (Build automation), SpringBoot Framework (4.3.x), MongoDB (Database), Terraform (Infrastructure-as-Code)."
     ]
   },
   {
@@ -85,39 +65,31 @@ export const experiences = [
     company: "Accenture",
     location: "Mumbai City, MH, India",
     duration: "(Mar 2019 – Dec 2020)",
-    techstack: "Client: E-Commerce | Tech Stack: React 16, AWS Serverless Architecture, Terraform",
+    techstack: "Client: Healthcare",
     responsibilities: [
-      // "Product: Appointment Scheduling System",
-      "Optimized React.js application performance by lazy loading components, using code-splitting techniques, and leveraging image optimization, resulting in a 10% improvement in page load times.",
-      "Integrated Stripe API for flexible payment processing, supporting various payment methods and currencies, ensuring compliance.",
-      "Leveraged Terraform (IaC) for ECS, EKS, API Gateway, and Lambda with GitHub Actions CI/CD, reducing 65% deployment time.",
-      "Optimized system performance with Elasticache (Redis) caching and AWS Auto Scaling, ensuring 99.9% uptime in high traffic.",
-      // "Reduced no-show rates by 25%, saving healthcare providers $250K annually, by implementing Azure Event Hubs, Webhooks, and SignalR.",
-      "Optimized backend queries in Java, reducing response times from 500ms to 350ms, improving user experience during high-traffic periods.",
-      // "Designed decoupled architectures using Java Spring, resulting in a 30% decrease in API call volume.",
-      "Spearheaded phased delivery plan, meeting a critical 6-week deadline and earning client recognition for balancing innovation with cost efficiency.",
-      "Promoted to Senior Software Engineer at Accenture."
+      "Built health insurance portal front-end using React.js, leveraging CSS Grid for flexible layouts, and component-based architecture to enhance accessibility and reusability for 100,000+ policyholders. Developed Python scripts for automated data processing, reducing manual effort by 30% and improving operational efficiency. Designed and optimized MySQL database schemas, improving data retrieval efficiency by 25% and ensuring seamless backend performance. Mentored team of 4 junior engineers, fostering culture of code quality and best practices, resulting in 20% reduction in bug reports.",
+      "Tech Stack: Python, React.js (Frontend), Express.js-Node.js (Integration Layer)."
     ]
   },
-  {
-    id: 6,
-    title: "Software Engineer",
-    company: "Infosys",
-    location: "Pune, MH, India",
-    duration: "(Mar 2017 – Mar 2019)",
-    techstack: "Client: Healthcare | Tech Stack: HTML, Tailwind CSS, React 16, REST APIs, Test Automation, OAuth 2.0",
-    responsibilities: [
-      "Developed a responsive patient portal front-end with React.js, using CSS Grid, component-based architecture and state management",
-      "Reduced user login time from 8 seconds to 3 seconds by implementing OAuth 2.0, ensuring a faster and smoother experience.",
-      "Developed robust end-to-end automated testing framework via Selenium, Cucumber, TestNG to reducing 40% manual testing effort.",
-      "Collaborated in client meetings, resulting to 20% rise in appreciations on healthcare app functionalities.",
-      "Significantly contributed to the team effort in remediating the log4j vulnerability across over 100 servers, enhancing the security posture."
-      // "Product: Loan Origination Platform for Northern Trust Bank",
-      // "Improved UI/UX loan approval features delivery time by 20% using React, Java SpringBoot and Material-UI, saving $100K annually.",
-      // "Designed an OAuth 2.0-based secure authentication and authorization system, enhancing API security by 20% across 50+ platforms.",
-      // "Diminished production defects by 40% via collaboration with QA and Data Science teams, leveraging automated testing and data-driven insights."
-    ]
-  },
+  // {
+  //   id: 6,
+  //   title: "Software Engineer",
+  //   company: "Infosys",
+  //   location: "Pune, MH, India",
+  //   duration: "(Mar 2017 – Mar 2019)",
+  //   techstack: "Client: Healthcare | Tech Stack: HTML, Tailwind CSS, React 16, REST APIs, Test Automation, OAuth 2.0",
+  //   responsibilities: [
+  //     "Developed a responsive patient portal front-end with React.js, using CSS Grid, component-based architecture and state management",
+  //     "Reduced user login time from 8 seconds to 3 seconds by implementing OAuth 2.0, ensuring a faster and smoother experience.",
+  //     "Developed robust end-to-end automated testing framework via Selenium, Cucumber, TestNG to reducing 40% manual testing effort.",
+  //     "Collaborated in client meetings, resulting to 20% rise in appreciations on healthcare app functionalities.",
+  //     "Significantly contributed to the team effort in remediating the log4j vulnerability across over 100 servers, enhancing the security posture."
+  //     // "Product: Loan Origination Platform for Northern Trust Bank",
+  //     // "Improved UI/UX loan approval features delivery time by 20% using React, Java SpringBoot and Material-UI, saving $100K annually.",
+  //     // "Designed an OAuth 2.0-based secure authentication and authorization system, enhancing API security by 20% across 50+ platforms.",
+  //     // "Diminished production defects by 40% via collaboration with QA and Data Science teams, leveraging automated testing and data-driven insights."
+  //   ]
+  // },
   {
     id: 7,
     title: "Game Developer (Android)",
