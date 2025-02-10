@@ -19,5 +19,5 @@ For me, tech is all about pushing boundaries, getting creative, and making it fe
   stackOverflow: 'https://stackoverflow.com/users/27917878/varsha-hindupur',
   leetcode: "https://leetcode.com/u/varshahindupur09/",
   devUsername: "varshahindupur09",
-  resume: "https://drive.google.com/file/d/12RUcMsDNt_mJG6re5SYMLmz8CO1Wkzsl/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/1XanqhLDY1ne6NNHQ_VB1AgOxQCPLU5gS/view?usp=sharing"
 }
