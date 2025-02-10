@@ -8,6 +8,17 @@ import foodKingInteractive from '/public/image/foodkingInteractive.png';
 
 export const projectsData = [
     {
+        id: 7,
+        name: 'Anomaly Detection System AI-Integrated',
+        timeline: 'January 2025',
+        description: 'AI-powered patient prioritization using RAG architecture with Groq and ChromaDB. Assigns triage levels based on severity with real-time processing.',
+        tools: ['FastAPI','Groq (LLaMA 3.2-90B Vision Preview)', 'ChromaDB', 'RAG Architecture', 'Embeddings: Sentence Transformers (all-MiniLM-L6-v2)', 'Console Interface: Rich (for formatted output)', 'Python Virtual Environment (.venv)'],
+        role: 'Artificial Intelligence, Machine Learning, Backend Developer, Deployment',
+        code: 'https://github.com/varshahindupur09/patient_triage_gen_ai.git',
+        demo: '',
+        // image: aiAnaomalyDetectSys,
+    },
+    {
         id: 2,
         name: 'Anomaly Detection System AI-Integrated',
         timeline: 'August 2024',
